@@ -1,17 +1,54 @@
 
+
+.main h5{
+  font-family: 'Nunito Sans', sans-serif;
+font-weight: 800;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+font-weight: 600;
+}
+
+h4 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 .footer-below {
   padding-top: 30px;
   padding-bottom: 120px;
   padding-left: 10px;
   padding-right: 10px;
+  background-color: white;
 }
 
-.social-links {
-  color:black;
+.main {
+  background-color: #fffaf2;
 }
 
-.social-links:hover {
+body {
+  background-color: #fffaf2;
+
+  }
+
+
+a {
+  color:#333333;
+}
+
+a:hover {
   color: #ede014;
+}
+
+.paragraph a:hover {
+  color: #ede014;
+}
+
+.paragraph a {
+    color:#333333;
+    text-decoration: underline;
 }
 
 .logo-footer {
@@ -22,11 +59,34 @@ h3 {
   color: #3e48a9;
 }
 
- h3{
+h3{
   font-family: 'Nunito Sans', sans-serif;
   /*style:bold;*/
   font-weight: 800;
 }
+
+
+.col-sm-4 {
+  text-align:center;
+}
+
+.box {
+  max-width: 380px !important;
+  max-height: 380px !important;
+  /*text-align: center;*/
+}
+
+/*.container {
+  margin-top: 6em;
+}*/
+
+/*.footer-below .container{
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
+
+
+
 
 
 
@@ -42,99 +102,55 @@ body {
   }
 }
 
-.img-thumbnail {
-   padding: .25rem;
-   background-color: #fff;
-    border: none !important;
-   border-radius: .25rem;
-   transition: all .2s ease-in-out;
-   max-width: 100%;
-   height: auto;
-}
+/*.img-thumbnail {
+  padding: .25rem;
+  /*background-color: #fff;*/
+
+  border: none !important;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 100px !important;
+}*/
+
 
 
 
 /*<style type="text/css">*/
-  body {
-    margin: 0;
-    padding: 0;
-    /*background: #EEE;*/
-    font-family: 10px 'Nunito Sans', sans-serif;
-  }
-  .wrap {
-    overflow: hidden;
-    margin: 10px;
-  }
-  .box {
-    float: left;
-    position: relative;
-    width: 20%;
-    padding-bottom: 20%;
-  }
-  .boxInner {
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    top: 10px;
-    bottom: 10px;
-    overflow: hidden;
-  }
-  .boxInner img {
-    width: 100%;
-  }
-  .boxInner .titleBox {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: -50px;
-    background: #000;
-    background: rgba(0, 0, 0, 0.5);
-    color: #FFF;
-    padding: 10px;
-    text-align: center;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-  }
-  body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
-    margin-bottom: 0;
-  }
-  @media only screen and (max-width : 480px) {
-    /* Smartphone view: 1 tile */
-    .box {
-      width: 100%;
-      padding-bottom: 100%;
-    }
-  }
-  @media only screen and (max-width : 650px) and (min-width : 481px) {
-    /* Tablet view: 2 tiles */
-    .box {
-      width: 50%;
-      padding-bottom: 50%;
-    }
-  }
-  @media only screen and (max-width : 1050px) and (min-width : 651px) {
-    /* Small desktop / ipad view: 3 tiles */
-    .box {
-      width: 33.3%;
-      padding-bottom: 33.3%;
-    }
-  }
-  @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-    /* Medium desktop: 4 tiles */
-    .box {
-      width: 25%;
-      padding-bottom: 25%;
-    }
-  }
-  @media only screen and (max-width : 2000px) and (min-width : 1051px) {
-    /* Large desktop: 4 tiles */
-    .box {
-      width: 25%;
-      padding-bottom: 25%;
-    }
-  }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf2 !important;
+  font-family: 10px 'Nunito Sans', sans-serif;
+}
+.wrap {
+  overflow: hidden;
+  margin: 10px;
+}
+.box {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-bottom: 20%;
+}
+.boxInner {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  overflow: hidden;
+}
+.img-container .img {
+  width: 100%;
+  max-width: 380px !important;
+  max-height: 380px !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+
+
 
 /*</style>*/
